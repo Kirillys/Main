@@ -1,7 +1,4 @@
-body{
-  background:#f9e933;
 
-}
 header, main, footer{
   min-width:855px;
 }
@@ -23,10 +20,27 @@ header nav{
 }
 main{
   background:white;
+  display:block;
+  padding-top:40px;
 }
-
-
-
+#image{
+  float:right;
+  backgound-color:white;
+  
+}
+main main{
+  float:left;
+}
+footer{
+  clear:both;
+  background-color:#f9e933;
+}
+.sitemap{
+  float:right;
+}
+.contact{
+  float:left;
+}
 
 
 
